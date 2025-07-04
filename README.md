@@ -1,22 +1,42 @@
 # 🧠 AI Story Generator using IBM Watsonx
 
-This is a web-based AI-powered story generator. Users enter a prompt and select a genre, and the app generates a short story using IBM Watsonx foundation models.
+This is a web-based AI-powered story generator built using **Flask** and **IBM Watsonx.ai**. Users can input a story prompt and select a genre to generate a creative short story using advanced foundation models like **FLAN-T5-XXL**.
+
+---
 
 ## 🚀 Features
-- Takes creative writing prompts
-- Supports genre selection (e.g., fantasy, horror, sci-fi)
-- Generates imaginative 3–5 paragraph stories
-- Built using Flask, IBM Watsonx.ai, and HTML/CSS
+
+- ✍️ Prompt-based story generation
+- 🎭 Genre selection (Fantasy, Horror, Sci-Fi, etc.)
+- 📚 Story output (3–5 paragraphs)
+- 🎨 Styled frontend using HTML & CSS
+- 🔐 Secure API keys using `.env` file
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Homepage
+![Homepage](static/screenshot1.png)
+
+### 🔹 Generated Story Output
+![Story Output](static/screenshot2.png)
+
+---
 
 ## 🛠️ Tech Stack
-- Python + Flask
-- HTML, CSS (for styling)
-- IBM Watsonx Foundation Models (FLAN-T5-XXL)
-- dotenv for environment variables
 
-## 📦 How to Run
+- **Backend:** Python + Flask
+- **Frontend:** HTML + CSS
+- **AI Model:** IBM Watsonx Foundation Model (FLAN-T5-XXL)
+- **Environment:** `.env` for secure key storage
 
-### 1. Clone this repo
+---
+
+## 📦 How to Run Locally
+
+### 1️⃣ Clone this repo
+
 ```bash
 git clone https://github.com/Panitha2908/ai-story-generator.git
 cd ai-story-generator
