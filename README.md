@@ -17,10 +17,10 @@ This is a web-based AI-powered story generator built using **Flask** and **IBM W
 ## 📸 Screenshots
 
 ### 🔹 Homepage
-![Homepage](static/screenshot1.png)
+![Homepage](static/screenshot1.jpg)
 
 ### 🔹 Generated Story Output
-![Story Output](static/screenshot2.png)
+![Story Output](static/screenshot2.jpg)
 
 ---
 
