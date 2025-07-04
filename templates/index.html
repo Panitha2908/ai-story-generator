@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🧠 AI Story Generator</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 AI Story Generator</h1>
+
+    <form method="POST">
+      <label for="prompt">Story Prompt:</label>
+      <textarea name="prompt" id="prompt" required placeholder="E.g. A time traveler visits ancient Egypt..."></textarea>
+
+      <label for="genre">Select Genre:</label>
+      <select name="genre" id="genre">
+        <option value="">-- Choose Genre --</option>
+        <option value="Fantasy">Fantasy</option>
+        <option value="Adventure">Adventure</option>
+        <option value="Sci-Fi">Sci-Fi</option>
+        <option value="Horror">Horror</option>
+        <option value="Romance">Romance</option>
+      </select>
+
+      <button type="submit">✨ Generate Story</button>
+    </form>
+
+    {% if story %}
+      <div class="result-box">
+        <h2>📖 Generated Story</h2>
+        <p>{{ story }}</p>
+      </div>
+    {% endif %}
+  </div>
+</body>
+</html>
