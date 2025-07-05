@@ -28,7 +28,7 @@ This is a web-based AI-powered story generator built using **Flask** and **IBM W
 
 - **Backend:** Python + Flask
 - **Frontend:** HTML + CSS
-- **AI Model:** IBM Watsonx Foundation Model (FLAN-T5-XXL)
+- **AI Model:** IBM Watsonx Foundation Model (meta-llama/llama-3-3-70b-instruct)
 - **Environment:** `.env` for secure key storage
 
 ---
